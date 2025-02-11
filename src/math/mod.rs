@@ -8,7 +8,7 @@ struct BigInt {
 impl Add for BigInt {
     type Output = BigInt;
 
-    fn add(self, other: BigInt) -> BigInt {
+    fn add(self, _other: BigInt) -> BigInt {
         return BigInt {
             integer: [0, 0, 0, 0]
         }
